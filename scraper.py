@@ -179,7 +179,7 @@ def suba_delta(df):
 def merge_data(df):
     
     # We're always asking for json because it's the easiest to deal with
-    morph_api_url = "https://api.morph.io/jasonchanhku/ufc_fighters_db/data.json"
+    morph_api_url = "https://api.morph.io/ufcmmaapp/scrape_ufc_mma_data/data.json"
 
     # Keep this key secret using morph secret variables
     morph_api_key = os.environ['MORPH_API_KEY']
