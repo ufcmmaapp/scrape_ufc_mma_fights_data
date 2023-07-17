@@ -190,6 +190,10 @@ def merge_data(df):
     })
 
     j = r.json()
+
+    print "----------Downloaded data----------"
+    print j
+    print "----------End of downloaded data----------"
     
     # fighters db dataset to me merged
     fighters_db = pd.DataFrame.from_dict(j)
